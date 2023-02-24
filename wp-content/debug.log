@@ -1,0 +1,283 @@
+[24-Feb-2023 06:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Activate" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:26
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(308): activateExternally(false)
+#1 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\week-7-assessment\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\week-7-assessment\wp-admin\includes\plugin.php(691): do_action('activate_admin-...', false)
+#4 C:\wamp64\www\week-7-assessment\wp-admin\plugins.php(58): activate_plugin('admin-submenu/a...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php on line 26
+[24-Feb-2023 06:43:38 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Activate" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:26
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(308): activateExternally('')
+#1 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\week-7-assessment\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\week-7-assessment\wp-admin\plugins.php(194): do_action('activate_admin-...')
+#4 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php on line 26
+[24-Feb-2023 06:43:38 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Activate" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:26
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(308): activateExternally('')
+#1 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\week-7-assessment\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\week-7-assessment\wp-admin\plugins.php(194): do_action('activate_admin-...')
+#4 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php on line 26
+[24-Feb-2023 07:50:41 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Marks" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:45
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php(32): Inc\Init::instantiate('Inc\\Base\\Marks')
+#1 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php(41): Inc\Init::register_services()
+#2 C:\wamp64\www\week-7-assessment\wp-settings.php(447): include_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\week-7-assessment\wp-config.php(97): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\week-7-assessment\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php on line 45
+[24-Feb-2023 07:51:49 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Marks" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:45
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php(32): Inc\Init::instantiate('Inc\\Base\\Marks')
+#1 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php(41): Inc\Init::register_services()
+#2 C:\wamp64\www\week-7-assessment\wp-settings.php(447): include_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\week-7-assessment\wp-config.php(97): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\week-7-assessment\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php on line 45
+[24-Feb-2023 07:51:50 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Marks" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:45
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php(32): Inc\Init::instantiate('Inc\\Base\\Marks')
+#1 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php(41): Inc\Init::register_services()
+#2 C:\wamp64\www\week-7-assessment\wp-settings.php(447): include_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\week-7-assessment\wp-config.php(97): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\week-7-assessment\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\week-7-assessment\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\week-7-assessment\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php on line 45
+[24-Feb-2023 07:51:50 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\wamp64\www\week-7-assessment\wp-includes\functions.php on line 5835
+[24-Feb-2023 07:51:50 UTC] PHP Stack trace:
+[24-Feb-2023 07:51:50 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Feb-2023 07:51:50 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Marks" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:45\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(32): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Marks\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\www\\week-'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 45], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:58
+[24-Feb-2023 07:51:50 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Marks" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:45\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(32): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Marks\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\www\\week-'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 45], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:154
+[24-Feb-2023 07:51:50 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:239
+[24-Feb-2023 07:51:50 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3713
+[24-Feb-2023 07:51:50 UTC] PHP   6. wp_robots() C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3789
+[24-Feb-2023 07:51:50 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:32
+[24-Feb-2023 07:51:50 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:205
+[24-Feb-2023 07:51:50 UTC] PHP   9. wp_robots_noindex_embeds($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 07:51:50 UTC] PHP  10. is_embed() C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:93
+[24-Feb-2023 07:51:50 UTC] PHP  11. _doing_it_wrong($function = 'is_embed', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') C:\wamp64\www\week-7-assessment\wp-includes\query.php:881
+[24-Feb-2023 07:51:50 UTC] PHP  12. trigger_error($message = 'Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_level = 1024) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:5835
+[24-Feb-2023 07:51:50 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\wamp64\www\week-7-assessment\wp-includes\functions.php on line 5835
+[24-Feb-2023 07:51:50 UTC] PHP Stack trace:
+[24-Feb-2023 07:51:50 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Feb-2023 07:51:50 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Marks" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:45\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(32): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Marks\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\www\\week-'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 45], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:58
+[24-Feb-2023 07:51:50 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Marks" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:45\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(32): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Marks\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\www\\week-'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 45], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:154
+[24-Feb-2023 07:51:50 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:239
+[24-Feb-2023 07:51:50 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3713
+[24-Feb-2023 07:51:50 UTC] PHP   6. wp_robots() C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3789
+[24-Feb-2023 07:51:50 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:32
+[24-Feb-2023 07:51:50 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:205
+[24-Feb-2023 07:51:50 UTC] PHP   9. wp_robots_noindex_search($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 07:51:50 UTC] PHP  10. is_search() C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:119
+[24-Feb-2023 07:51:50 UTC] PHP  11. _doing_it_wrong($function = 'is_search', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') C:\wamp64\www\week-7-assessment\wp-includes\query.php:699
+[24-Feb-2023 07:51:50 UTC] PHP  12. trigger_error($message = 'Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_level = 1024) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:5835
+[24-Feb-2023 07:54:50 UTC] PHP Warning:  require_once(C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu//templates/ViewEmployees.php): Failed to open stream: No such file or directory in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Api\Callbacks\AdminCallbacks.php on line 20
+[24-Feb-2023 07:54:50 UTC] PHP Stack trace:
+[24-Feb-2023 07:54:50 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin.php:0
+[24-Feb-2023 07:54:50 UTC] PHP   2. do_action($hook_name = 'wilson-features_page_wilson_taxonomies') C:\wamp64\www\week-7-assessment\wp-admin\admin.php:259
+[24-Feb-2023 07:54:50 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:517
+[24-Feb-2023 07:54:50 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:332
+[24-Feb-2023 07:54:50 UTC] PHP   5. Inc\Api\Callbacks\AdminCallbacks->taxonomyManager('') C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 07:54:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu//templates/ViewEmployees.php' (include_path='.;C:\php\pear') in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Api\Callbacks\AdminCallbacks.php:20
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(308): Inc\Api\Callbacks\AdminCallbacks->taxonomyManager('')
+#1 C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\week-7-assessment\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\week-7-assessment\wp-admin\admin.php(259): do_action('wilson-features...')
+#4 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Api\Callbacks\AdminCallbacks.php on line 20
+[24-Feb-2023 08:01:51 UTC] PHP Warning:  Undefined property: Inc\Base\WilsonDB::$wp_admin_contact in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 15
+[24-Feb-2023 08:01:51 UTC] PHP Stack trace:
+[24-Feb-2023 08:01:51 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:0
+[24-Feb-2023 08:01:51 UTC] PHP   2. require_once() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:22
+[24-Feb-2023 08:01:51 UTC] PHP   3. require_once() C:\wamp64\www\week-7-assessment\wp-load.php:50
+[24-Feb-2023 08:01:51 UTC] PHP   4. require_once() C:\wamp64\www\week-7-assessment\wp-config.php:97
+[24-Feb-2023 08:01:51 UTC] PHP   5. include_once() C:\wamp64\www\week-7-assessment\wp-settings.php:447
+[24-Feb-2023 08:01:51 UTC] PHP   6. Inc\Init::register_services() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:41
+[24-Feb-2023 08:01:51 UTC] PHP   7. Inc\Base\WilsonDB->register() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:31
+[24-Feb-2023 08:01:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Inc\Base\WilsonDB::create_table_admin_contact() in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php:18
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php(31): Inc\Base\WilsonDB->register()
+#1 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php(41): Inc\Init::register_services()
+#2 C:\wamp64\www\week-7-assessment\wp-settings.php(447): include_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\week-7-assessment\wp-config.php(97): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\week-7-assessment\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 18
+[24-Feb-2023 08:02:51 UTC] PHP Warning:  Undefined property: Inc\Base\WilsonDB::$wp_admin_employee in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 15
+[24-Feb-2023 08:02:51 UTC] PHP Stack trace:
+[24-Feb-2023 08:02:51 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:0
+[24-Feb-2023 08:02:51 UTC] PHP   2. require_once() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:22
+[24-Feb-2023 08:02:51 UTC] PHP   3. require_once() C:\wamp64\www\week-7-assessment\wp-load.php:50
+[24-Feb-2023 08:02:51 UTC] PHP   4. require_once() C:\wamp64\www\week-7-assessment\wp-config.php:97
+[24-Feb-2023 08:02:51 UTC] PHP   5. include_once() C:\wamp64\www\week-7-assessment\wp-settings.php:447
+[24-Feb-2023 08:02:51 UTC] PHP   6. Inc\Init::register_services() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:41
+[24-Feb-2023 08:02:51 UTC] PHP   7. Inc\Base\WilsonDB->register() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:31
+[24-Feb-2023 08:04:51 UTC] PHP Warning:  Undefined property: Inc\Base\WilsonDB::$wp_admin_employee in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 15
+[24-Feb-2023 08:04:51 UTC] PHP Stack trace:
+[24-Feb-2023 08:04:51 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:0
+[24-Feb-2023 08:04:51 UTC] PHP   2. require_once() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:22
+[24-Feb-2023 08:04:51 UTC] PHP   3. require_once() C:\wamp64\www\week-7-assessment\wp-load.php:50
+[24-Feb-2023 08:04:51 UTC] PHP   4. require_once() C:\wamp64\www\week-7-assessment\wp-config.php:97
+[24-Feb-2023 08:04:51 UTC] PHP   5. include_once() C:\wamp64\www\week-7-assessment\wp-settings.php:447
+[24-Feb-2023 08:04:51 UTC] PHP   6. Inc\Init::register_services() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:41
+[24-Feb-2023 08:04:51 UTC] PHP   7. Inc\Base\WilsonDB->register() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:31
+[24-Feb-2023 08:04:51 UTC] WordPress database error Table 'wp_admin_employee' already exists for query CREATE TABLE wp_admin_employee(
+            ID bigint unsigned NOT NULL auto_increment,
+            event_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            firstname text NOT NULL,
+            lastname text NOT NULL,
+            email varchar(35) NOT NULL,
+            password VARCHAR(20) NOT NULL,
+            PRIMARY KEY (ID)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/admin-submenu/admin-submenu.php'), Inc\Init::register_services, Inc\Base\WilsonDB->register, Inc\Base\WilsonDB->create_table_admin_employee, dbDelta
+[24-Feb-2023 08:06:51 UTC] PHP Warning:  Undefined property: Inc\Base\WilsonDB::$wp_admin_employee in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 15
+[24-Feb-2023 08:06:51 UTC] PHP Stack trace:
+[24-Feb-2023 08:06:51 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:0
+[24-Feb-2023 08:06:51 UTC] PHP   2. require_once() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:22
+[24-Feb-2023 08:06:51 UTC] PHP   3. require_once() C:\wamp64\www\week-7-assessment\wp-load.php:50
+[24-Feb-2023 08:06:51 UTC] PHP   4. require_once() C:\wamp64\www\week-7-assessment\wp-config.php:97
+[24-Feb-2023 08:06:51 UTC] PHP   5. include_once() C:\wamp64\www\week-7-assessment\wp-settings.php:447
+[24-Feb-2023 08:06:51 UTC] PHP   6. Inc\Init::register_services() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:41
+[24-Feb-2023 08:06:51 UTC] PHP   7. Inc\Base\WilsonDB->register() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:31
+[24-Feb-2023 08:06:51 UTC] WordPress database error Table 'wp_admin_employee' already exists for query CREATE TABLE wp_admin_employee(
+            ID bigint unsigned NOT NULL auto_increment,
+            event_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            firstname text NOT NULL,
+            lastname text NOT NULL,
+            email varchar(35) NOT NULL,
+            password VARCHAR(20) NOT NULL,
+            PRIMARY KEY (ID)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/admin-submenu/admin-submenu.php'), Inc\Init::register_services, Inc\Base\WilsonDB->register, Inc\Base\WilsonDB->create_table_admin_employee, dbDelta
+[24-Feb-2023 08:08:51 UTC] PHP Warning:  Undefined property: Inc\Base\WilsonDB::$wp_admin_employee in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 15
+[24-Feb-2023 08:08:51 UTC] PHP Stack trace:
+[24-Feb-2023 08:08:51 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:0
+[24-Feb-2023 08:08:51 UTC] PHP   2. require_once() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:22
+[24-Feb-2023 08:08:51 UTC] PHP   3. require_once() C:\wamp64\www\week-7-assessment\wp-load.php:50
+[24-Feb-2023 08:08:51 UTC] PHP   4. require_once() C:\wamp64\www\week-7-assessment\wp-config.php:97
+[24-Feb-2023 08:08:51 UTC] PHP   5. include_once() C:\wamp64\www\week-7-assessment\wp-settings.php:447
+[24-Feb-2023 08:08:51 UTC] PHP   6. Inc\Init::register_services() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:41
+[24-Feb-2023 08:08:51 UTC] PHP   7. Inc\Base\WilsonDB->register() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:31
+[24-Feb-2023 08:08:51 UTC] WordPress database error Table 'wp_admin_employee' already exists for query CREATE TABLE wp_admin_employee(
+            employee_id bigint unsigned NOT NULL auto_increment,
+            event_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            firstname text NOT NULL,
+            lastname text NOT NULL,
+            email varchar(35) NOT NULL,
+            phone int NOT NULL,
+            PRIMARY KEY (employee_id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/admin-submenu/admin-submenu.php'), Inc\Init::register_services, Inc\Base\WilsonDB->register, Inc\Base\WilsonDB->create_table_admin_employee, dbDelta
+[24-Feb-2023 08:10:51 UTC] PHP Warning:  Undefined property: Inc\Base\WilsonDB::$wp_admin_employee in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Base\WilsonDB.php on line 15
+[24-Feb-2023 08:10:51 UTC] PHP Stack trace:
+[24-Feb-2023 08:10:51 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:0
+[24-Feb-2023 08:10:51 UTC] PHP   2. require_once() C:\wamp64\www\week-7-assessment\wp-admin\admin-ajax.php:22
+[24-Feb-2023 08:10:51 UTC] PHP   3. require_once() C:\wamp64\www\week-7-assessment\wp-load.php:50
+[24-Feb-2023 08:10:51 UTC] PHP   4. require_once() C:\wamp64\www\week-7-assessment\wp-config.php:97
+[24-Feb-2023 08:10:51 UTC] PHP   5. include_once() C:\wamp64\www\week-7-assessment\wp-settings.php:447
+[24-Feb-2023 08:10:51 UTC] PHP   6. Inc\Init::register_services() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php:41
+[24-Feb-2023 08:10:51 UTC] PHP   7. Inc\Base\WilsonDB->register() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:31
+[24-Feb-2023 08:10:51 UTC] WordPress database error Table 'wp_admin_employee' already exists for query CREATE TABLE wp_admin_employee(
+            employee_id bigint unsigned NOT NULL auto_increment,
+            event_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            firstname text NOT NULL,
+            lastname text NOT NULL,
+            email varchar(35) NOT NULL,
+            phone int NOT NULL,
+            PRIMARY KEY (employee_id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/admin-submenu/admin-submenu.php'), Inc\Init::register_services, Inc\Base\WilsonDB->register, Inc\Base\WilsonDB->create_table_admin_employee, dbDelta
+[24-Feb-2023 08:14:08 UTC] PHP Warning:  Undefined property: stdClass::$employees_id in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\templates\ViewEmployees.php on line 30
+[24-Feb-2023 08:14:08 UTC] PHP Stack trace:
+[24-Feb-2023 08:14:08 UTC] PHP   1. {main}() C:\wamp64\www\week-7-assessment\wp-admin\admin.php:0
+[24-Feb-2023 08:14:08 UTC] PHP   2. do_action($hook_name = 'admin-menu_page_view_employees') C:\wamp64\www\week-7-assessment\wp-admin\admin.php:259
+[24-Feb-2023 08:14:08 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:517
+[24-Feb-2023 08:14:08 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:332
+[24-Feb-2023 08:14:08 UTC] PHP   5. Inc\Api\Callbacks\AdminCallbacks->viewEmployees('') C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 08:14:08 UTC] PHP   6. require_once() C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Api\Callbacks\AdminCallbacks.php:20
+[24-Feb-2023 08:20:21 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\WilsonDB" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:42
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php(29): Inc\Init::instantiate('Inc\\Base\\Wilson...')
+#1 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php(41): Inc\Init::register_services()
+#2 C:\wamp64\www\week-7-assessment\wp-settings.php(447): include_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\week-7-assessment\wp-config.php(97): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\week-7-assessment\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\week-7-assessment\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php on line 42
+[24-Feb-2023 08:20:21 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\wamp64\www\week-7-assessment\wp-includes\functions.php on line 5835
+[24-Feb-2023 08:20:21 UTC] PHP Stack trace:
+[24-Feb-2023 08:20:21 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Feb-2023 08:20:21 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\WilsonDB" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Wilson...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:58
+[24-Feb-2023 08:20:21 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\WilsonDB" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Wilson...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:154
+[24-Feb-2023 08:20:21 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:239
+[24-Feb-2023 08:20:21 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3713
+[24-Feb-2023 08:20:21 UTC] PHP   6. wp_robots() C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3789
+[24-Feb-2023 08:20:21 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:32
+[24-Feb-2023 08:20:21 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:205
+[24-Feb-2023 08:20:21 UTC] PHP   9. wp_robots_noindex_embeds($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 08:20:21 UTC] PHP  10. is_embed() C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:93
+[24-Feb-2023 08:20:21 UTC] PHP  11. _doing_it_wrong($function = 'is_embed', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') C:\wamp64\www\week-7-assessment\wp-includes\query.php:881
+[24-Feb-2023 08:20:21 UTC] PHP  12. trigger_error($message = 'Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_level = 1024) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:5835
+[24-Feb-2023 08:20:21 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\wamp64\www\week-7-assessment\wp-includes\functions.php on line 5835
+[24-Feb-2023 08:20:21 UTC] PHP Stack trace:
+[24-Feb-2023 08:20:21 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Feb-2023 08:20:21 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\WilsonDB" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Wilson...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:58
+[24-Feb-2023 08:20:21 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\WilsonDB" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Wilson...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:154
+[24-Feb-2023 08:20:21 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:239
+[24-Feb-2023 08:20:21 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3713
+[24-Feb-2023 08:20:21 UTC] PHP   6. wp_robots() C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3789
+[24-Feb-2023 08:20:21 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:32
+[24-Feb-2023 08:20:21 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:205
+[24-Feb-2023 08:20:21 UTC] PHP   9. wp_robots_noindex_search($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 08:20:21 UTC] PHP  10. is_search() C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:119
+[24-Feb-2023 08:20:21 UTC] PHP  11. _doing_it_wrong($function = 'is_search', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') C:\wamp64\www\week-7-assessment\wp-includes\query.php:699
+[24-Feb-2023 08:20:21 UTC] PHP  12. trigger_error($message = 'Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_level = 1024) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:5835
+[24-Feb-2023 08:20:40 UTC] PHP Fatal error:  Uncaught Error: Class "Inc\Base\Employee" not found in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php:42
+Stack trace:
+#0 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php(29): Inc\Init::instantiate('Inc\\Base\\Employ...')
+#1 C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\admin-submenu.php(41): Inc\Init::register_services()
+#2 C:\wamp64\www\week-7-assessment\wp-settings.php(447): include_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\week-7-assessment\wp-config.php(97): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\week-7-assessment\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\week-7-assessment\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\week-7-assessment\wp-content\plugins\admin-submenu\inc\Init.php on line 42
+[24-Feb-2023 08:20:40 UTC] PHP Notice:  Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\wamp64\www\week-7-assessment\wp-includes\functions.php on line 5835
+[24-Feb-2023 08:20:40 UTC] PHP Stack trace:
+[24-Feb-2023 08:20:40 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Feb-2023 08:20:40 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Employee" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Employ...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:58
+[24-Feb-2023 08:20:40 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Employee" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Employ...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:154
+[24-Feb-2023 08:20:40 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:239
+[24-Feb-2023 08:20:40 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3713
+[24-Feb-2023 08:20:40 UTC] PHP   6. wp_robots() C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3789
+[24-Feb-2023 08:20:40 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:32
+[24-Feb-2023 08:20:40 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:205
+[24-Feb-2023 08:20:40 UTC] PHP   9. wp_robots_noindex_embeds($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 08:20:40 UTC] PHP  10. is_embed() C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:93
+[24-Feb-2023 08:20:40 UTC] PHP  11. _doing_it_wrong($function = 'is_embed', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') C:\wamp64\www\week-7-assessment\wp-includes\query.php:881
+[24-Feb-2023 08:20:40 UTC] PHP  12. trigger_error($message = 'Function is_embed was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_level = 1024) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:5835
+[24-Feb-2023 08:20:40 UTC] PHP Notice:  Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in C:\wamp64\www\week-7-assessment\wp-includes\functions.php on line 5835
+[24-Feb-2023 08:20:40 UTC] PHP Stack trace:
+[24-Feb-2023 08:20:40 UTC] PHP   1. WP_Fatal_Error_Handler->handle() C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Feb-2023 08:20:40 UTC] PHP   2. WP_Fatal_Error_Handler->display_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Employee" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Employ...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:58
+[24-Feb-2023 08:20:40 UTC] PHP   3. WP_Fatal_Error_Handler->display_default_error_template($error = ['type' => 1, 'message' => 'Uncaught Error: Class "Inc\\Base\\Employee" not found in C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php:42\nStack trace:\n#0 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php(29): Inc\\Init::instantiate(\'Inc\\\\Base\\\\Employ...\')\n#1 C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\admin-submenu.php(41): Inc\\Init::register_services()\n#2 C:\\wamp64\\www\\week-7-assessment\\wp-settings.php(447): include_once(\'C:\\\\wamp64\\\\www\\\\w...\')\n#3 C:\\wamp64\\ww'..., 'file' => 'C:\\wamp64\\www\\week-7-assessment\\wp-content\\plugins\\admin-submenu\\inc\\Init.php', 'line' => 42], $handled = class WP_Error { public $errors = ['email_sent_already' => [...]]; public $error_data = []; protected $additional_data = [] }) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:154
+[24-Feb-2023 08:20:40 UTC] PHP   4. wp_die($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-fatal-error-handler.php:239
+[24-Feb-2023 08:20:40 UTC] PHP   5. _default_wp_die_handler($message = class WP_Error { public $errors = ['internal_server_error' => [...]]; public $error_data = ['internal_server_error' => [...]]; protected $additional_data = [] }, $title = '', $args = ['response' => 500, 'exit' => FALSE]) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3713
+[24-Feb-2023 08:20:40 UTC] PHP   6. wp_robots() C:\wamp64\www\week-7-assessment\wp-includes\functions.php:3789
+[24-Feb-2023 08:20:40 UTC] PHP   7. apply_filters($hook_name = 'wp_robots', $value = []) C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:32
+[24-Feb-2023 08:20:40 UTC] PHP   8. WP_Hook->apply_filters($value = [], $args = [0 => []]) C:\wamp64\www\week-7-assessment\wp-includes\plugin.php:205
+[24-Feb-2023 08:20:40 UTC] PHP   9. wp_robots_noindex_search($robots = ['noindex' => TRUE, 'nofollow' => TRUE]) C:\wamp64\www\week-7-assessment\wp-includes\class-wp-hook.php:308
+[24-Feb-2023 08:20:40 UTC] PHP  10. is_search() C:\wamp64\www\week-7-assessment\wp-includes\robots-template.php:119
+[24-Feb-2023 08:20:40 UTC] PHP  11. _doing_it_wrong($function = 'is_search', $message = 'Conditional query tags do not work before the query is run. Before then, they always return false.', $version = '3.1.0') C:\wamp64\www\week-7-assessment\wp-includes\query.php:699
+[24-Feb-2023 08:20:40 UTC] PHP  12. trigger_error($message = 'Function is_search was called <strong>incorrectly</strong>. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.)', $error_level = 1024) C:\wamp64\www\week-7-assessment\wp-includes\functions.php:5835

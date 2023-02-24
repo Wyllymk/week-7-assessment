@@ -1,8 +1,8 @@
 {
-    "name": "wylly/custom-plugin",
-    "description": "This is a custom plugin",
+    "name": "wylly/wilson-features",
+    "description": "General Purpose Plugin",
     "type": "project",
-    "license": "GPL v2 or later",
+    "license": "GPL v2",
     "autoload": {
         "psr-4": {
             "Inc\\": "./inc"

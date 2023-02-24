@@ -1,12 +1,13 @@
 <?php
 /**
- * @package CustomPlugin
+ * @package AdminSubmenu
  */
 
- namespace Inc\Base;
 
-class Activate{
+ namespace Inc\Base;
+ 
+ class Activate{
     public static function activate(){
         flush_rewrite_rules();
     }
-}
+ }

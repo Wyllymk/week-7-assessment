@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'wylly/custom-plugin',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'wylly/wilson-features',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '1709593bf653e362f748ebc3f2e351621f6db5ce',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'wylly/custom-plugin' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'wylly/wilson-features' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '1709593bf653e362f748ebc3f2e351621f6db5ce',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

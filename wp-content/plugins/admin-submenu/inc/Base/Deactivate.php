@@ -1,11 +1,12 @@
 <?php
 /**
- * @package CustomPlugin
+ * @package AdminSubmenu
  */
-namespace Inc\Base;
 
+
+ namespace Inc\Base;
 class Deactivate{
     public static function deactivate(){
         flush_rewrite_rules();
     }
-}
+ }
