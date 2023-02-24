@@ -14,6 +14,6 @@ class Controller{
     public function __construct(){
         $this->plugin_path =  plugin_dir_path(dirname(__FILE__, 2));
         $this->plugin_url = plugin_dir_url(dirname(__FILE__,2));
-        $this->plugin_name = plugin_basename(dirname(__FILE__,3)) .'/wilson-features.php';
+        $this->plugin_name = plugin_basename(dirname(__FILE__,3)) .'/admin-submenu.php';
     }
 }
